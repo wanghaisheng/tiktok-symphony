@@ -1,7 +1,268 @@
 # tiktok-symphony
 
+## login
+'''
+https://ads.tiktok.com/business-chatbot/login?biz_type=1
 
-"""
+
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "app_id": 4684,
+        "user_id": "7402689290701194256",
+        "user_type": 1,
+        "biz_type": 1,
+        "account_id": "",
+        "extra": {
+            "industry": "Bags",
+            "product": "health products",
+            "selling_point": "natural, effective, high-quality",
+            "target_audience": "people who care about their health"
+        }
+    }
+}
+'''
+
+
+## init
+'''
+https://ads.tiktok.com/business-chatbot/conversation/init?platform_account=7402689290701194256&biz_type=1
+
+
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "last_conversation": {
+            "conversation_id": "7404203279917400065",
+            "biz_type": 1,
+            "user_id": 7402689290701194256,
+            "account_id": "",
+            "biz_extra": "",
+            "status": 0,
+            "created_time": "2024-08-17T20:12:04.807Z",
+            "updated_time": "2024-08-17T20:12:12.029Z",
+            "messages": [
+                {
+                    "message_id": "66c10415405d04a6e6620168",
+                    "conversation_id": "7404203279917400065",
+                    "role": "user",
+                    "contents": [
+                        {
+                            "type": "token",
+                            "data": {
+                                "content": "herb",
+                                "token_num": 2
+                            }
+                        },
+                        {
+                            "type": "ab_test",
+                            "data": {
+                                "parameters": "{\"satisfaction\":false,\"t2i\":false,\"factory\":false,\"prompt_extend\":false,\"permanent_prompt\":false}"
+                            }
+                        }
+                    ],
+                    "log_id": "202408172012049A6104E5B17FFA435FFD",
+                    "user_option": {},
+                    "user_context": {},
+                    "created_time": "2024-08-17T20:12:05.72Z",
+                    "update_time": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "message_id": "66c10415405d04a6e6620169",
+                    "conversation_id": "7404203279917400065",
+                    "role": "assistant",
+                    "contents": [
+                        {
+                            "type": "extra",
+                            "data": {
+                                "ab_params": "{\"dynamic_hint\": {\"group\": \"online\"}, \"satisfaction\": false, \"t2i\": false, \"factory\": false, \"prompt_extend\": false, \"permanent_prompt\": false, \"response_language\": \"English\"}",
+                                "backend_detect_language": "English",
+                                "hint_language": "English",
+                                "question": "",
+                                "question_input": "{}",
+                                "response_language": "English",
+                                "use_case": "Reject"
+                            }
+                        },
+                        {
+                            "type": "hints",
+                            "data": {
+                                "Hints": [
+                                    {
+                                        "short_text": "Find some keywords driving ad performance.",
+                                        "complete_text": "Find some keywords driving ad performance.",
+                                        "params": null,
+                                        "hint_type": 1
+                                    },
+                                    {
+                                        "short_text": "Show me some TikTok ad examples.",
+                                        "complete_text": "Show me some TikTok ad examples.",
+                                        "params": null,
+                                        "hint_type": 1
+                                    },
+                                    {
+                                        "short_text": "Find me some top products on TikTok.",
+                                        "complete_text": "Find me some top products on TikTok.",
+                                        "params": null,
+                                        "hint_type": 1
+                                    },
+                                    {
+                                        "short_text": "Write a TikTok ad script for me.",
+                                        "complete_text": "Write a TikTok ad script for me.",
+                                        "params": null,
+                                        "hint_type": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "token",
+                            "data": {
+                                "pre_content": "I\u003c|endoftext|\u003e",
+                                "content": "I appreciate your understanding that your recent request may not align perfectly with the creative scope of TikTok, or it could potentially conflict with our platform's guidelines. As such, I might not be able to provide a comprehensive response. However, I'm more than willing to assist with any other questions or ideas you might have that are related to TikTok's creative and advertising realm!\u003c|endoftext|\u003e",
+                                "gpt_id": "cmpl-bebedd6c95ce4828a44e76f33f865c46",
+                                "token_num": 81
+                            }
+                        }
+                    ],
+                    "log_id": "202408172012049A6104E5B17FFA435FFD",
+                    "user_option": {},
+                    "user_context": {},
+                    "created_time": "2024-08-17T20:12:12.026Z",
+                    "update_time": "0001-01-01T00:00:00Z",
+                    "pre_message_id": "66c10415405d04a6e6620168"
+                }
+            ],
+            "total_cnt": 2
+        },
+        "conversation_list": [
+            {
+                "conversation_id": "7402689529552928769",
+                "biz_type": 1,
+                "user_id": 7402689290701194256,
+                "account_id": "",
+                "biz_extra": "",
+                "status": 0,
+                "created_time": "2024-08-13T18:17:20.024Z",
+                "updated_time": "2024-08-14T01:41:43.1Z",
+                "messages": [
+                    {
+                        "message_id": "66bc0b4b405d04a6e60d3ba0",
+                        "conversation_id": "7402689529552928769",
+                        "role": "user",
+                        "contents": [
+                            {
+                                "type": "token",
+                                "data": {
+                                    "content": "Please recommend some popular products in the health.",
+                                    "token_num": 9
+                                }
+                            },
+                            {
+                                "type": "ab_test",
+                                "data": {
+                                    "parameters": "{\"satisfaction\":false,\"t2i\":false,\"factory\":false,\"prompt_extend\":false,\"permanent_prompt\":false}"
+                                }
+                            }
+                        ],
+                        "log_id": "20240814014129D917A466940F706A11E5",
+                        "user_option": {},
+                        "user_context": {},
+                        "created_time": "2024-08-14T01:41:31.158Z",
+                        "update_time": "0001-01-01T00:00:00Z"
+                    },
+                    {
+                        "message_id": "66bc0b4b405d04a6e60d3ba1",
+                        "conversation_id": "7402689529552928769",
+                        "role": "assistant",
+                        "contents": [
+                            {
+                                "type": "extra",
+                                "data": {
+                                    "ab_params": "{\"dynamic_hint\": {\"group\": \"online\"}, \"satisfaction\": false, \"t2i\": false, \"factory\": false, \"prompt_extend\": false, \"permanent_prompt\": false, \"response_language\": \"English\"}",
+                                    "backend_detect_language": "English",
+                                    "hint_language": "English",
+                                    "question": "Recommend products",
+                                    "question_input": "{\"industry_list\": [29000000000], \"data_source\": null, \"country_codes\": [], \"num_of_result\": 5, \"period\": null, \"user_input\": \"Please recommend some popular products in the health.\"}",
+                                    "response_language": "English",
+                                    "use_case": "Find Inspiration"
+                                }
+                            },
+                            {
+                                "type": "hints",
+                                "data": {
+                                    "Hints": [
+                                        {
+                                            "short_text": "Tell me more.",
+                                            "complete_text": "Tell me more.",
+                                            "params": null,
+                                            "hint_type": 1
+                                        },
+                                        {
+                                            "short_text": "Show me some TikTok ad examples.",
+                                            "complete_text": "Show me some TikTok ad examples.",
+                                            "params": null,
+                                            "hint_type": 1
+                                        },
+                                        {
+                                            "short_text": "Show me what's trending on TikTok",
+                                            "complete_text": "Show me what's trending on TikTok",
+                                            "params": null,
+                                            "hint_type": 1
+                                        },
+                                        {
+                                            "short_text": "Write some attention-grabbers for my ad.",
+                                            "complete_text": "Write some attention-grabbers for my ad.",
+                                            "params": null,
+                                            "hint_type": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "elements",
+                                "data": {
+                                    "style_id": 1,
+                                    "elements": {
+                                        "url": [
+                                            "{\"url\": \"https://ads.tiktok.com/business/creativecenter/product-category/Beauty%20Supplements-700648?index=0\u0026level=l3\", \"name\": \"Top Products - Beauty Supplements\"}",
+                                            "{\"url\": \"https://ads.tiktok.com/business/creativecenter/product-category/Wellness%20Supplements-700650?index=0\u0026level=l3\", \"name\": \"Top Products - Wellness Supplements\"}",
+                                            "{\"url\": \"https://ads.tiktok.com/business/creativecenter/product-category/Serums%20%26%20Essences-601619?index=0\u0026level=l3\", \"name\": \"Top Products - Serums \u0026 Essences\"}",
+                                            "{\"url\": \"https://ads.tiktok.com/business/creativecenter/product-category/Toothbrushes-601697?index=0\u0026level=l3\", \"name\": \"Top Products - Toothbrushes\"}",
+                                            "{\"url\": \"https://ads.tiktok.com/business/creativecenter/product-category/Coffee-700612?index=0\u0026level=l3\", \"name\": \"Top Products - Coffee\"}"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "token",
+                                "data": {
+                                    "pre_content": "1\u003c|endoftext|\u003e",
+                                    "content": "1. Beauty Supplements \u003cstart_url\u003e1\u003c/end_url\u003e - Beauty Supplements are products designed to enhance the health of your skin, hair, and nails. They often contain vitamins, minerals, and other essential nutrients that can contribute to radiant skin, luscious locks, and strong nails. They're a popular choice among individuals seeking to improve their overall beauty and wellness.\n\n2. Wellness Supplements \u003cstart_url\u003e2\u003c/end_url\u003e - Wellness Supplements are a popular choice for those who want to enhance their overall health and wellbeing. These products can include vitamins, minerals, and other nutrients that are essential for maintaining a healthy body and mind. They're a great choice for individuals who want to support their body's natural health processes.\n\n3. Serums \u0026 Essences \u003cstart_url\u003e3\u003c/end_url\u003e - Serums and essences are skincare products that are often packed with powerful active ingredients. Serums are designed to treat specific skin concerns, like wrinkles, dark spots, or dryness, while essences are used to add moisture and balance the skin's pH. They're a popular choice among individuals who take skincare seriously.\n\n4. Toothbrushes \u003cstart_url\u003e4\u003c/end_url\u003e - Toothbrushes are a staple in oral health routines. They're used to remove plaque, prevent cavities, and maintain fresh breath. With various styles and features available, toothbrushes cater to different preferences and needs, making them a popular choice for individuals who prioritize oral hygiene.\n\n5. Coffee \u003cstart_url\u003e5\u003c/end_url\u003e - Coffee is a popular beverage that many people incorporate into their daily routine. It's known for its stimulating effects and rich flavor. Whether it's enjoyed as a morning pick-me-up, an afternoon energy boost, or part of a cozy evening routine, coffee is a favorite for many. It's also often used as an ingredient in various recipes, adding depth to dishes and drinks.\n\nThese are just a few examples of popular health-related products that could be marketed on TikTok. Each of these categories offers a wealth of opportunities for creative and engaging content.\u003c|endoftext|\u003e",
+                                    "gpt_id": "cmpl-fa16fcc646b94e3691ebb52a8cbfa3d5",
+                                    "token_num": 427
+                                }
+                            }
+                        ],
+                        "log_id": "20240814014129D917A466940F706A11E5",
+                        "user_option": {},
+                        "user_context": {},
+                        "created_time": "2024-08-14T01:41:43.096Z",
+                        "update_time": "0001-01-01T00:00:00Z",
+                        "pre_message_id": "66bc0b4b405d04a6e60d3ba0"
+                    }
+                ]
+            }
+        ]
+    }
+}
+'''
+
+## message
+
+'''
 https://ads.tiktok.com/business-chatbot/message/?platform_account=7402689290701194256&biz_type=1
 
 
@@ -99,3 +360,28 @@ biz_type: 1
 {"conversation_id":"7404203279917400065","message_id":"66c10415405d04a6e6620169","pre_message_id":"66c10415405d04a6e6620168","role":"assistant","content":{"type":"token","data":{"content":"\u003c|endoftext|\u003e"}},"user_context":{},"user_option":{}}
 ```
 
+
+## judge
+
+'''
+https://ads.tiktok.com/business-chatbot/event/judge?biz_type=1
+{"events":["portrait"]}
+
+
+
+
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "list": [
+            {
+                "event": "portrait",
+                "configs": {
+                    "show_portrait": false
+                }
+            }
+        ]
+    }
+}
+'''
