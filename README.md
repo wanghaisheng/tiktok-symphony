@@ -1,5 +1,9 @@
 # tiktok-symphony
 
+
+https://ads.tiktok.com/business/copilot/standalone?libraInfo=%7B%22satisfaction%22%3Afalse%2C%22t2i%22%3Afalse%2C%22factory%22%3Afalse%2C%22prompt_extend%22%3Afalse%2C%22permanent_prompt%22%3Afalse%7D&lang=en&media=pc
+
+
 countrycode
 https://github.com/incogiscool/marketing-report
 
